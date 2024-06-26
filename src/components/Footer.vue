@@ -11,7 +11,7 @@ export default {
      name: "FooterComp",
      data(){
         return {
-            currentYear: new Date().getUCTFullYear()
+            currentYear: new Date().getUTCFullYear()
          }
        },
 }
