@@ -25,6 +25,9 @@
 /* Univeral Selector */
 
 /* Custom variables */
+::-webkit-scrollbar{
+    display: none;
+}
 
 /* Select all images */
 img{
@@ -37,4 +40,9 @@ img{
 img[alt='logo'] {
     width: 5rem;
        
+}
+/* wrapper */
+:is(.wrapper){
+    display: grid;
+    grid-template-rows: auto minmax(100dvh, 100%) auto;
 }
