@@ -1,7 +1,7 @@
 <template>
   <div class="container">
   <section class="row" id="home">
-      <LandingSection/>
+      <LandingSection />
   </section>
 
   <section class="row" id="about"></section>
