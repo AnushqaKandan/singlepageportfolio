@@ -13,6 +13,11 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
+section{
+    scroll-margin-block: 7rem;
+}
+
 /*Custom Variable */
 :root {
     --primary: rgb(248, 165, 179) ;
