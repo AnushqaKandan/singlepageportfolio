@@ -15,7 +15,7 @@
 }
 
 section{
-    scroll-margin-block: 7rem;
+    scroll-margin-block: 6.7rem;
 }
 
 /*Custom Variable */
@@ -90,14 +90,18 @@ a {
 
 /* Page Name Style */
 .display-2{
+    font-size: 3rem;
     font-weight: bold;
     font-family: "Tiro Devanagari Hindi", serif;
+
 }
 
+:is(#about, #resume, #skills, #projects, #testimonials, #contactinfo){
+    margin-block: 5rem;
+}
 
 /* Select all images */
 img{
-    
     object-fit: cover;
     object-position: center;
 }
@@ -110,7 +114,7 @@ img[alt='logo'] {
 }
 /* Home Image */
 img[alt='profile'] {
-    width: 30rem;
+    width: 25rem;
     border-color: var(--tertiary);
     border-radius: 20%;
 }
@@ -119,10 +123,8 @@ img[alt='profile'] {
     font-size: 4rem;
     font-weight: bold;
     font-family: "Inknut Antiqua", serif;
+    margin-top: 7rem;
 }
-
-
-
 
 
 /* Animation for Landing Page */

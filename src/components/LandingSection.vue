@@ -1,11 +1,11 @@
 <template>
-  <div class="container">
+  <div class="container" id="home">
     <div class="row">
         <h2 class="display-2 home-1">Home</h2>
     </div>
-    <div class="row vh-100 align-items-center">
+    <div class="row flex-column flex-md-row">
      <div class="col image-1">
-        <img src="https://anushqakandan.github.io/All-images/Images/AnushiPro.JPG " alt="profile" class="img-thumbnail border-5" loading="lazy">
+        <img src="https://anushqakandan.github.io/All-images/Images/AnushiPro3.JPG " alt="profile" class="img-thumbnail border-5" loading="lazy">
      </div>
 
      <div class="col"> 

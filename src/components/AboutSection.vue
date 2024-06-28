@@ -5,6 +5,9 @@
     </div>
     
      <div class="card">
+      <div>
+        <h3>This is me</h3>
+      </div>
      <div class="col"> 
         <div id="details">
             <p v-if="about?.length">
